@@ -171,7 +171,8 @@ a.active {
   }
 }
 
-** contact section css ** ------------------------- */ .section-contact {
+/* contact-section  */
+ .section-contact {
   & .contact-content {
     padding: 0;
 
