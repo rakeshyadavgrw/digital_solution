@@ -11,7 +11,7 @@ const connectDb = require("./utils/db");
 const errorMiddleware = require("./middleware/error-middleware");
 
 const corsOption = {
-  origin: "http://localhost:5173",
+  origin: "",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
