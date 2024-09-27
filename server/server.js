@@ -11,7 +11,7 @@ const connectDb = require("./utils/db");
 const errorMiddleware = require("./middleware/error-middleware");
 
 const corsOption = {
-  origin: "https://digital-solution-client.vercel.app/",
+  origin: "https://digital-solution-client.onrender.com",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
