@@ -48,7 +48,7 @@ export const AdminContacts = () => {
           <h1>Admin Contacts Data</h1>
         </div>
         <div className=" contact-con" >
-          {!contdata || contdata.length===0?"loading...":contdata.map((cdata, index) => { 
+          {!contdata || contdata.length===0?<h2>Loading...</h2>:contdata.map((cdata, index) => { 
             return (
               <div key={index} className="contact-card" >
                <div className="card-content">
