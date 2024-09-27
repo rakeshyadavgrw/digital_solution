@@ -94,7 +94,7 @@ export const AdminUsers = () => {
                       </tr>
                     );
                   })
-                : ""}
+                : <h2>Loading...</h2>}
             </tbody>
           </table>
         </div>
